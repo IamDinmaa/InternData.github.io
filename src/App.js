@@ -1,7 +1,12 @@
+import React, { useState } from "react";
+import "./App.css";
+import Leaderboard from "./components/InternComponent/Leaderboard";
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
+    <div className="app">
+      <h1>Leaderboard</h1>
+      <Leaderboard />
     </div>
   );
 }
